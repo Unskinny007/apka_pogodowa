@@ -1,15 +1,11 @@
 import React from 'react'
-import YourLocation from '../YourLocation/YourLocation'
-import SearchLocation from '../SearchLocation'
-import ButtonSpace from '../ButtonSpace/ButtonSpace'
+import Weather from '../Weather/Weather'
 import './Header.css'
 
 const Header = () => {
   return (
     <div className='header'>
-        <YourLocation/>
-        <SearchLocation/>
-        <ButtonSpace/>
+        <Weather/>
     </div>
   )
 }
