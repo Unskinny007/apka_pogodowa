@@ -1,14 +1,15 @@
 import "./App.css";
 import Header from "./components/Header";
+import SectionMain from "./components/SectionMain"
+import "./styles/global.css"
+
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Header/>
-      <div className="main">
-
-      </div>
-    </>
+      <SectionMain/>
+    </div>
   );
 }
 
